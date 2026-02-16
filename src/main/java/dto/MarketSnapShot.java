@@ -1,5 +1,3 @@
 package dto;
 
-import java.math.BigDecimal;
-
-public record MarketSnapShot (BigDecimal bid, BigDecimal ask) {}
+public record MarketSnapShot(long bid, long ask) {}
